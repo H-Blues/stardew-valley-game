@@ -10,7 +10,7 @@
 
 2. 进入文件夹，鼠标右击 `git bash here`
 
-   <img src="C:\Users\86199\Desktop\git使用教程.assets\image-20211020005902814.png" alt="image-20211020005902814" style="zoom: 50%; float: left" />
+   <img src="git使用教程.assets/image-20211020005902814.png" alt="image-20211020005902814" style="zoom: 50%; float: left" />
 
 3. 设置用户名和邮箱地址(推荐和github的一致)
 
@@ -19,7 +19,7 @@
    $ git config --global user.email 你的邮箱地址
    ```
 
-   <img src="C:\Users\86199\Desktop\git使用教程.assets\image-20211020010326665.png" alt="image-20211020010326665" style="zoom:50%;float:left"  />
+   <img src="git使用教程.assets/image-20211020010326665.png" alt="image-20211020010326665" style="zoom:50%;float:left"  />
 
 4. 初始化仓库
 
