@@ -1,0 +1,183 @@
+grows:
+#   编号，名称，种子价格，生长天数，卖价
+    -
+        id: 1
+        name: 防风草
+        seed_price: 20
+        grows_day: 4
+        sold_price: 35
+    -
+        id: 2
+        name: 大蒜
+        seed_price: 40
+        grows_day: 4
+        sold_price: 60
+    -
+        id: 3
+        name: 土豆
+        seed_price: 50
+        grows_day: 6
+        sold_price: 80
+    -
+        id: 4
+        name: 郁金香
+        seed_price: 20
+        grows_day: 6
+        sold_price: 30
+    -
+        id: 5
+        name: 花菜
+        seed_price: 80
+        grows_day: 12
+        sold_price: 175
+    -
+        id: 6
+        name: 小白菜
+        seed_price: 20
+        grows_day: 4
+        sold_price: 60
+
+
+fishes:
+#  编号，种类，价格，可钓范围（1：池塘；2：海洋；3：溪流）
+    -
+        id: 1
+        name: 河豚
+        price: 200
+        region: 2
+    -
+        id: 2
+        name: 鲶鱼
+        price: 200
+        region: 3
+    -
+        id: 3
+        name: 金枪鱼
+        price: 100
+        region: 2
+    -
+        id: 4
+        name: 狗鱼
+        price: 100
+        region: 1
+    -
+        id: 5
+        name: 大嘴鲈鱼
+        price: 100
+        region: 1
+    -
+        id: 6
+        name: 鲑鱼
+        price: 75
+        region: 3
+    -
+        id: 7
+        name: 沙丁鱼
+        price: 40
+        region: 2
+    -
+        id: 8
+        name: 鲤鱼
+        price: 30
+        region: 1
+    -
+        id: 9
+        name: 鳀鱼
+        price: 30
+        region: 2
+    -
+        id: 10
+        name: 鲢鱼
+        price: 50
+        region: 1
+    -
+        id: 11
+        name: 大眼鱼
+        price: 105
+        region: 3
+    -
+        id: 12
+        name: 垃圾
+        price: 0
+        region: 1
+    -
+        id: 13
+        name: 浮木
+        price: 0
+        region: 3
+    -
+        id: 14
+        name: 海藻
+        price: 25
+        region: 2
+
+
+npcs:
+#   编号，名称，说话，喜欢的东西，讨厌的东西（0--没有；1--别的所有）
+    -
+        id: 1
+        name: 皮埃尔
+        sentence: “欢迎来到皮埃尔种子商店！"
+        likes: 黄水仙
+        hate: 沙丁鱼
+    -
+        id: 2
+        name: 威利
+        sentence: "真正的钓者必须尊重水...这一点可不要忘了"
+        likes: 鲶鱼
+        hate: 防风草
+    -
+        id: 3
+        name: 格斯
+        sentence: "欢迎光临！你在这永远是受欢迎的"
+        likes: 黄水仙
+        hate: 大蒜
+    -
+        id: 4
+        name: 罗宾
+        sentence: "当我告诉我父母我想成为木匠时，他们吓傻了。我父母是很墨守成规的人。"
+        likes: 防风草
+        hate: 狗鱼
+    -
+        id: 5
+        name: 刘易斯
+        sentence: "我在鹈鹕镇当了20多年的镇长！选举的时候，没一个人投我的反对票。我觉得那意味着我的工作做得很好。我喜欢当镇长。"
+        likes: 防风草
+        hate: 0
+    -
+        id: 6
+        name: 哈维
+        sentence: "嗨...（无话可说）"
+        likes: 小白菜
+        hate: 1
+    -
+        id: 7
+        name: 艾米莉
+        sentence: "我只是在格斯酒吧工作来维生，可是我真正的梦想是当裁缝。"
+        likes: 海蓝宝石
+        hate: 海藻
+    -
+        id: 8
+        name: 克林特
+        sentence: "在户外工作可比整天在热腾腾的大火炉旁边好多了。我当这个铁匠都是因为我爸爸非要让我当啊。"
+        likes: 紫水晶
+        hate: 土豆
+    -
+        id: 9
+        name: 潘姆
+        sentence: "年轻人，好好工作"
+        likes: 啤酒
+        hate: 0
+
+
+birthday_sentence:
+#   01：最喜欢的礼物；02：一般的礼物（除喜欢的和讨厌的礼物外都是一般的礼物）；03：讨厌的礼物
+    -
+        id: 1
+        sentence: "噢！这礼物正合我意，谢谢！"
+    -
+        id: 2
+        sentence: "嗯..是个还不错的礼物，谢谢。"
+    -
+        id: 3
+        sentence: "让我想想我能把它用在什么地方"
